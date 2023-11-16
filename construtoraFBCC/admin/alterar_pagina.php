@@ -23,14 +23,14 @@
             <div class="invalid-feedback">Preenchimento obrigatório</div>
         </div>
         <div class="form-floating mb-3 mt-3">
-            <select class="form-select" id="tag" name="tag" value="<?=$dados['tag'];?>">
+            <select class="form-select" id="tag" name="tag">
                 <option <?php if($dados['tag'] == ""){echo "selected";}?>></option>
                 <option <?php if($dados['tag'] == "imovel"){echo "selected";}?>>imovel</option>
             </select>
             <label for="tag" class="form-label">Selecione uma Tag (Deixe vazia se não for uma página de Imóvel):</label>
         </div>
         <div class="form-floating mb-3 mt-3">
-            <textarea class="form-control" style="height: 300px;" id="conteudo" name="conteudo" placeholder="Digite o conteúdo da página:" value="<?=$dados['conteudo'];?>"></textarea>
+            <textarea class="form-control" style="height: 300px;" id="conteudo" name="conteudo" placeholder="Digite o conteúdo da página:"><?=$dados['conteudo'];?></textarea>
             <label for="conteudo">Conteúdo</label>
             <div class="invalid-feedback">Preenchimento obrigatório</div>
         </div>
