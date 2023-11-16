@@ -1,48 +1,71 @@
 <div class="container my-5">
-      <div class="row">
-            <div class="col-sm-4">
-                <h3>Column 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
-            <div class="col-sm-4">
-                <h3>Column 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
-            <div class="col-sm-4">
-                <h3>Column 3</h3>        
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
-      </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Column 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Column 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Column 3</h3>        
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
     </div>
+</div>
+<div>
 
     <!-- Carousel -->
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
         <!-- Indicators/dots -->
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <?php
+                $dir = opendir(getcwd()."/imagens/carrossel");
+                $cont = 0;
+                if ($dir) {
+                    while (($item = readdir($dir)) !== false) {
+                        if ($item == '.' || $item == '..') {
+                            continue;
+                        }
+                    $cont++;
+                    }
+                    closedir($dir);
+                }
+            ?>
+            <?php for ($i = 0; $i < $cont; $i++){ ?>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="<?=$i?>" class="<?php if($i == 0) echo "active";?>"></button>
+            <?php } ?>
+            
         </div>
       
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://www.w3schools.com/bootstrap5/la.jpg" alt="Los Angeles" class="d-block" style="width:100%">
-            </div>
-            <div class="carousel-item">
-                <img src="https://www.w3schools.com/bootstrap5/chicago.jpg" alt="Chicago" class="d-block" style="width:100%">
-            </div>
-            <div class="carousel-item">
-                <img src="https://www.w3schools.com/bootstrap5/ny.jpg" alt="New York" class="d-block" style="width:100%">
-            </div>
-            <div class="carousel-item">
-                <img src="https://www.w3schools.com/bootstrap5/ny.jpg" alt="New York" class="d-block" style="width:100%">
-            </div>
+            <?php
+                $dir = opendir(getcwd()."/imagens/carrossel");
+                $cont = 0;
+                if ($dir){
+                    while (($item = readdir($dir)) !== false) {
+                        if ($item == '.' || $item == '..') {
+                            continue;
+                        }
+                        ?>
+                        <div class="carousel-item <?php if($cont == 0){echo "active";}?>">
+                            <img src="<?="imagens/carrossel/".$item;?>" alt="<?=$item;?>" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <h3><?=$item;?></h3>
+                                <p>Lorem ipsum dolor sit amet!</p>
+                            </div>
+                        </div>
+                    <?php $cont++;
+                    }
+                    closedir($dir);
+                }
+            ?>
         </div>
       
         <!-- Left and right controls/icons -->
