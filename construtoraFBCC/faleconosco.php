@@ -1,5 +1,5 @@
 
-<div class="container px-5 py-5">
+<div class="container px-5 py-5 w-25">
     <h2 class="text-center">FALE CONOSCO</h2> 
     <form method="post" action="?pg=contatodb" class="was-validated">
         <div class="form-floating mb-3 mt-3">
@@ -29,6 +29,7 @@
         <div class="form-floating mb-3 mt-3">
             <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Digite sua mensagem aqui:" required></textarea>
             <label for="mensagem">Mensagem</label>
+            <div class="invalid-feedback">Preenchimento obrigatório</div>
         </div>
         <div class="d-grid">
             <button type="submit" class="btn btn-secondary btn-lg">Enviar</button>
