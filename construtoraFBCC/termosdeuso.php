@@ -1,4 +1,4 @@
-<div class="mx-auto py-5 text-center" style="width:1000px">
+<div class="mx-auto py-5 w-50 text-center">
 
     <?php
         $sql = mysqli_query($conexao,"SELECT conteudo FROM paginas WHERE id = 6");
