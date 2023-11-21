@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="bootstrap/css/new-colors.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap-icons-1.11.1/bootstrap-icons.css">
   </head>
 
   <body>
