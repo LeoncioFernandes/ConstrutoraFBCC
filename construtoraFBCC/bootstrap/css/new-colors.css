@@ -31,6 +31,11 @@
     object-fit: cover;  
 }
 
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+
 .hover-effect{
     transition-duration: 0.2s;
 }

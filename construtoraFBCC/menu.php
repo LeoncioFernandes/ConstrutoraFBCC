@@ -37,9 +37,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="?pg=areacliente">Área do Cliente</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="?pg=areacorretor">Área do Corretor</a>
-                    </li> -->
                 </ul>
             </div>
         </nav>

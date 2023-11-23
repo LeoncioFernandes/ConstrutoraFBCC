@@ -2,7 +2,7 @@
     include "../conecta.inc.php";
 
     $id = $_GET['id'];
-    $sql = "SELECT * FROM admin WHERE id = $id";
+    $sql = "SELECT * FROM clientes WHERE id = $id";
     $busca = mysqli_query($conexao, $sql);
 
     while($dados = mysqli_fetch_array($busca)){      
@@ -14,8 +14,8 @@
     <div class="col">
 
         <div class="py-5">
-            <h2 class="text-center">Alterar Usuário</h2> 
-            <form method="post" action="?pg=alterardb_usuario" class="was-validated">
+            <h2 class="text-center">Alterar Cliente</h2> 
+            <form method="post" action="?pg=alterardb_cliente" class="was-validated">
                 <input type="hidden" name="id" value="<?=$dados['id'];?>">
                 <div class="form-floating mb-3 mt-3">
                     <input type="text" class="form-control" id="nome" placeholder="Digite o nome completo" name="nome" value="<?=$dados['nome'];?>" required>

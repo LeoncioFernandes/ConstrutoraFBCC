@@ -31,6 +31,13 @@
                             <li><a class="dropdown-item" href="?pg=cadastrar_usuario">Cadastrar Usuários</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="" role="button" data-bs-toggle="dropdown">Clientes</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="?pg=listar_clientes">Listar Clientes</a></li>
+                            <li><a class="dropdown-item" href="?pg=cadastrar_cliente">Cadastrar Clientes</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <div class="col">
