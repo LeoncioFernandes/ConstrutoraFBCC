@@ -10,67 +10,69 @@
       </div>
     </div>
 
-    <div class="row mt-4">
-      <div class="col d-flex justify-content-center">
-        <img class="rounded w-100" src="https://static.wixstatic.com/media/62f7fb_00cc9e79113a424abe49750b56add2ca~mv2.jpg/v1/fit/w_623,h_516,q_90/62f7fb_00cc9e79113a424abe49750b56add2ca~mv2.jpg">
-      </div>
-      <div class="col">
-
-        <div class="accordion" id="accordionPanelsStayOpenExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-                Conceito
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
-              <div class="accordion-body" style="text-align: justify">
-                Sua praia é viver com lazer, segurança e de frente para o mar!
-                Descanso, lazer, conexão com a natureza e muito mais, na localização mais desejada e exclusiva da Paraíba: a praia de Ponta de Campina!
-                O Noa é um verdadeiro resort a 03 minutos da beira mar da praia de Ponta de Campina.
-                Noa significa "descanso", "repouso", "consolação", "de longa vida". Um nome bíblico que carrega consigo o sentimento de alívio.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                Diferenciais
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-              <div class="accordion-body">
-                O NOA é um verdadeiro RESORT a 03 minutos da beira mar da praia de Ponta de Campina. <br>
-                <br>
-                Serão 02 Torres de apartamentos. Torre A e Torre B – Com 08 Pavimentos Cada.<br>
-                2 elevadores por torre<br>
-                Áreas de lazer (Térreo)<br>
-                <br>
-                Piscina Adulto (30m/raiai)<br>
-                Pool Kids<br>
-                Deck<br>
-                Lounge Negativo<br>
-                07 Espaços Gourmet com Churrasqueira<br>
-                Salão de Festas<br>
-                Salão de jogos<br>
-                Lounge Coberto<br>
-                Bar de Apoio<br>
-                Espaço Fitness<br>
-                Playground<br>
-                Brinquedoteca<br>
-                Acqua Kids<br>
-                Pista de Cooper<br>
-                Áreas de Lazer (Rooftop)<br>
-                <br>
-                Piscina<br>
-                Deck<br>
-                Espaço Gourmet<br>
-                Wine bar
-              </div>
-            </div>
-          </div>
+    <div class="row mt-4 justify-content-center">
+      <div class="row row-cols-1 row-cols-lg-2">
+        <div class="col">
+          <img class="rounded w-100" src="https://static.wixstatic.com/media/62f7fb_00cc9e79113a424abe49750b56add2ca~mv2.jpg/v1/fit/w_623,h_516,q_90/62f7fb_00cc9e79113a424abe49750b56add2ca~mv2.jpg">
         </div>
+        <div class="col">
 
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                  Conceito
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body" style="text-align: justify">
+                  Sua praia é viver com lazer, segurança e de frente para o mar!
+                  Descanso, lazer, conexão com a natureza e muito mais, na localização mais desejada e exclusiva da Paraíba: a praia de Ponta de Campina!
+                  O Noa é um verdadeiro resort a 03 minutos da beira mar da praia de Ponta de Campina.
+                  Noa significa "descanso", "repouso", "consolação", "de longa vida". Um nome bíblico que carrega consigo o sentimento de alívio.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Diferenciais
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  O NOA é um verdadeiro RESORT a 03 minutos da beira mar da praia de Ponta de Campina. <br>
+                  <br>
+                  Serão 02 Torres de apartamentos. Torre A e Torre B – Com 08 Pavimentos Cada.<br>
+                  2 elevadores por torre<br>
+                  Áreas de lazer (Térreo)<br>
+                  <br>
+                  Piscina Adulto (30m/raiai)<br>
+                  Pool Kids<br>
+                  Deck<br>
+                  Lounge Negativo<br>
+                  07 Espaços Gourmet com Churrasqueira<br>
+                  Salão de Festas<br>
+                  Salão de jogos<br>
+                  Lounge Coberto<br>
+                  Bar de Apoio<br>
+                  Espaço Fitness<br>
+                  Playground<br>
+                  Brinquedoteca<br>
+                  Acqua Kids<br>
+                  Pista de Cooper<br>
+                  Áreas de Lazer (Rooftop)<br>
+                  <br>
+                  Piscina<br>
+                  Deck<br>
+                  Espaço Gourmet<br>
+                  Wine bar
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
 
