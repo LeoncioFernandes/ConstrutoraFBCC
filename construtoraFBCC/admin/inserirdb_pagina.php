@@ -24,15 +24,19 @@
     $insert = mysqli_query($conexao, $sql);
 
     if(!$insert){ ?>
-        <div class="container-fluid px-5 py-5 w-25">
-            <h3 class="text-center">Ocorreu um erro ao cadastrar no banco de dados</h3>
-            <a class="row d-flex justify-content-center" href='?pg=cadastrar_pagina'>Tente Novamente</a>
+        <div class="row" style="background-color: rgb(245, 245, 245);">
+            <div class="container px-5 py-5">
+                <h3 class="text-center">Ocorreu um erro ao cadastrar no banco de dados</h3>
+                <a class="row d-flex justify-content-center" href='?pg=cadastrar_pagina'>Tente Novamente</a>
+            </div>
         </div>
     <?php }else{ ?>
-        <div class="container-fluid px-5 py-5 w-25">
-            <h3 class="text-center">Página cadastrada com sucesso!</h3>
-            <a class="row d-flex justify-content-center" href='?pg=cadastrar_pagina'>Cadastrar nova página</a>
-            <a class="row d-flex justify-content-center" href='?pg=listar_paginas'>Listar Páginas</a>
+        <div class="row" style="background-color: rgb(245, 245, 245);">
+            <div class="container px-5 py-5">
+                <h3 class="text-center">Página cadastrada com sucesso!</h3>
+                <a class="row d-flex justify-content-center" href='?pg=cadastrar_pagina'>Cadastrar nova página</a>
+                <a class="row d-flex justify-content-center" href='?pg=listar_paginas'>Listar Páginas</a>
+            </div>
         </div>
     <?php }
 ?>
