@@ -60,8 +60,8 @@
         <div class="mt-3 py-3 px-2 rounded shadow bg-body-tertiary text-center">
             <h5>Status do Projeto</h5>
             <div>
-                <!-- <img src="foto1.png" class="img-thumbnail"> -->
-                <div class="fakeimg img-thumbnail mx-5">Fake Image</div>
+                <img src="imagens/foto1.png" class="w-100 img-thumbnail">
+                <!-- <div class="fakeimg img-thumbnail mx-5">Fake Image</div> -->
                 <h6 class="mt-3">Progresso do Projeto:</h6>
                 <div class="progress mx-5" style="height:30px" role="progressbar" aria-label="Barra de Progresso" aria-valuenow="<?= $progressoProjeto;?>" aria-valuemin="0" aria-valuemax="100">
                     <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-bg-warning" style="width: <?= $progressoProjeto;?>%"><?= $progressoProjeto;?>%</div>
