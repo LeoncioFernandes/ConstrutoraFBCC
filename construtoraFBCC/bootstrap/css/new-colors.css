@@ -1,0 +1,45 @@
+/* CORES BACKGROUND */
+.bg-primary{
+    background-color: brown !important;
+}
+
+.bg-secondary{
+    background-color: rgb(255, 182, 80) !important;
+}
+
+.bg-dark{
+    background-color: rgb(0, 0, 0) !important;
+}
+
+/* CORES BACKGROUND BOTÃO */
+.btn-primary{
+    background-color: brown !important;
+}
+
+.btn-secondary{
+    background-color: rgb(255, 182, 80) !important;
+}
+
+.img-moldura{
+    display: flex;
+    width: auto;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.img{
+    object-fit: cover;  
+}
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+
+.hover-effect{
+    transition-duration: 0.2s;
+}
+
+.hover-effect:hover {
+    background-color: rgb(230, 230, 230);
+}
